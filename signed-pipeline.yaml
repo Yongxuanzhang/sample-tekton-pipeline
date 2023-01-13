@@ -2,7 +2,7 @@ apiVersion: tekton.dev/v1beta1
 kind: Pipeline
 metadata:
   annotations:
-    tekton.dev/signature: MEUCIQDrTulLk2mjByvESr7WQBZeEiONOVNNhLhe4dpUq9NveQIgBCEp27HgMgS9KjIwGM9T+rXs7gkl9ZMuEiBdYZgIY7Y=
+    tekton.dev/signature: MEQCIBl4g1e51xXRGsKv65ufEMyxjqHWsqqsQmCVkKQeKGmuAiAygFyMaEwl8cXr3g2bnUjWG6UilQx6U5mlryQXJX3paQ==
   creationTimestamp: null
   name: example-pipeline
   namespace: trusted-resources
@@ -12,9 +12,9 @@ spec:
     taskRef:
       params:
       - name: url
-        value: https://github.com/Yongxuanzhang/sample-tekton-resources-cosign
+        value: https://github.com/Yongxuanzhang/sample-tekton-task
       - name: revision
         value: main
       - name: pathInRepo
-        value: signed-kms.yaml
+        value: signed-task.yaml
       resolver: git
