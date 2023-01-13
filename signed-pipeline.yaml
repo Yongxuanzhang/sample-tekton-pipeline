@@ -2,7 +2,7 @@ apiVersion: tekton.dev/v1beta1
 kind: Pipeline
 metadata:
   annotations:
-    tekton.dev/signature: MEQCIBl4g1e51xXRGsKv65ufEMyxjqHWsqqsQmCVkKQeKGmuAiAygFyMaEwl8cXr3g2bnUjWG6UilQx6U5mlryQXJX3paQ==
+    tekton.dev/signature: MEUCIQDiAhiVRT2Ba8/zACMInnPxZN1BPSPSyMBcoXt+xRvMAgIgU6CY0tq6TIT1PY6K2T0eTURJ/fNYfbTDKobdE/i5xQ8=
   creationTimestamp: null
   name: example-pipeline
   namespace: trusted-resources
